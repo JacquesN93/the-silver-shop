@@ -1,0 +1,173 @@
+html {margin: 45px; 
+}
+/*Header*/
+
+header {margin: 10px; 
+}
+.Navigation {
+    border-style: dotted dashed solid double;
+}
+
+.LogoDiv {margin-bottom: 10px;
+			padding: 10px;
+}
+
+.HeaderImage {width: 80px;
+			height: 80px;
+			float: left;
+			padding: 8px;
+}
+
+.NavigationList {
+    padding-top: 20px;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+}
+
+ul a:hover {
+    text-decoration: none;
+    transition-duration: 0.2s;
+    color: white;
+}
+
+.NavLink {
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+#NavHeader{
+	background: linear-gradient(-45deg, #3973ac, #8585ad, #b84dff, #52527a);
+	background-size: 400% 400%;
+	position: relative;
+	padding: 20px;
+	animation: change 10s ease-in-out infinite;
+	position: relative;
+}
+
+@keyframes change {
+			0% {background-position: 0 50%; 
+			}
+			50% {background-position:100% 50%; 
+			}
+			100% {background-position:0 50%; 
+			}
+}
+
+/*Content*/
+
+.AboutHeading {
+				font-family: Times New Roman; 
+				font-size: 30px; 
+				text-align: center;
+				margin-top: 60px;
+				margin-bottom: 60px;
+}
+
+#Achieve {text-decoration: underline;
+				font-family: Times New Roman; 
+				font-size: 28px; 
+				text-align: center;
+				margin-top: 45px;
+				margin-bottom: 45px; 
+}
+
+.PromiseList {font-family: Montserrat; 
+				font-size: 18px;
+				font-style: italic;
+} 
+
+.ClientCompanies {font-family: Montserrat; }
+
+
+.ClientCompanyList {font-family: Montserrat; 
+					font-size: 18px;
+					list-style-type: none;
+					font-style: italic;
+}
+
+p {font-family: Montserrat; 
+	font-size: 18px;
+	text-align: justify; 
+}
+
+
+/*Testimonials*/
+
+#ClientTestimonial { font-family: Times New Roman; 
+					text-decoration: underline;
+					text-align: center;
+					margin-top: 40px;
+					margin-bottom: 40px; 
+}
+
+.container {background-color: #d1d1e0; 
+			border: solid 1px;
+			border-radius: 10px; 
+			padding: 20px;
+			margin: 20px;
+			height: 150px;
+}
+
+.container span {font-size: 18px;
+				font-weight: bolder;
+				margin-right: 25px;
+			}
+
+
+#Jane {height: 90px; 
+		width: 90px;
+		float: left;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-right: 15px;
+		border-radius: 30px; 
+}
+
+#Maria {height: 90px; 
+		width: 90px; 
+		float: left;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-right: 15px;
+		border-radius: 30px; 
+}
+
+
+#Grace {height: 90px; 
+		width: 90px;
+		float: left;
+		margin-top: 10px;
+		margin-bottom: 10px; 
+		margin-right: 15px;
+		border-radius: 30px;
+}
+
+#Test1{margin: 25px; 
+		padding: 10px;
+		border: solid 1px; 
+		text-align: justify;
+		background-color: #b3d9ff;
+}
+
+#Test2{margin: 25px; 
+		padding: 10px;
+		border: solid 1px; 
+		text-align: justify;
+		background-color: #b3d9ff;
+}
+
+
+#Test3{margin: 25px;
+		padding: 10px; 
+		border: solid 1px; 
+		text-align: justify;
+		background-color: #b3d9ff;
+}
+
+q {font-family: Montserrat;}

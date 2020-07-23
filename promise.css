@@ -1,0 +1,103 @@
+html {
+    margin: 45px;
+}
+
+/*Header*/
+header {
+    margin: 10px;
+}
+
+.Navigation {
+    border-style: dotted dashed solid double;
+}
+
+.LogoDiv {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.HeaderImage {
+    width: 80px;
+    height: 80px;
+    float: left;
+    padding: 8px;
+}
+
+.NavigationList {
+    padding-top: 20px;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+}
+
+ul a:hover {
+    text-decoration: none;
+    transition-duration: 0.2s;
+    color: white;
+}
+
+.NavLink {
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+#NavHeader {
+    background: linear-gradient(-45deg, #3973ac, #8585ad, #b84dff, #52527a);
+    background-size: 400% 400%;
+    position: relative;
+    padding: 20px;
+    animation: change 10s ease-in-out infinite;
+    position: relative;
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+/*Content*/
+
+#MainHeading {
+    font-size: 30px;
+    font-family: Times New Roman;
+    margin: 30px;
+    text-align: center;
+}
+
+ol {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ListItem {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: italic;
+}
+
+p {
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.AccordionTitle {
+    font-size: 26px;
+    margin: 30px;
+    text-align: center;
+    font-family: Times New Roman;
+}
